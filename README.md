@@ -1,7 +1,7 @@
 # Clustering-Analysis
 
 ## Overview
-This repository contains the code and analysis for a clustering assignment focused on customer segmentation using the Wholesale customers dataset. The goal is to employ clustering techniques to segment clients based on their purchase habits, providing insightful understanding of consumer behavior. 
+This repository explores customer segmentation using the Wholesale customers dataset. The goal is to employ clustering techniques to segment clients based on their purchase habits, providing insightful understanding of consumer behavior. 
 
 ## Dataset Description
 
