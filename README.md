@@ -6,16 +6,21 @@ This repository contains the code and analysis for a clustering assignment focus
 ## Dataset Description
 
 **Dataset:** Wholesale customers dataset - https://archive.ics.uci.edu/dataset/292/wholesale+customers
+
 **Size:** 440 samples, 8 columns
 
 **Features:**
-•	**Continuous features:** Fresh, Milk, Grocery, Frozen, Detergents_Paper, Delicassen
-•	**Categorical features:** Channel, Region
+
+(i) **Continuous features:** Fresh, Milk, Grocery, Frozen, Detergents_Paper, Delicassen
+
+(ii) **Categorical features:** Channel, Region
 
 ## Objectives
 
 1. **Segmentation:** Utilize clustering techniques to segment customers based on purchase habits.
+
 2. **Insights:** Gain understanding of consumer behavior, preferences, and traits.
+
 3. **Applications:** Develop specialized marketing plans for targeted customer groups.
 
 ## Exploratory Data Analysis (EDA)
@@ -51,23 +56,31 @@ This repository contains the code and analysis for a clustering assignment focus
 ## Results and Observations
 
 (i)   **Cluster 0:** Customers spend more money on “Fresh” and “Frozen” goods, indicating a preference for perishable goods.
+
 (ii)  **Cluster 1:** This cluster shows consumers who spend a lot of money in all categories, demonstrating that they have a wide range of product needs.
+
 (iii) **Cluster 2:** Customers exhibit modest spending across all categories, indicating fewer needs for purchases.
+
 (iv)  **Cluster 3:** Customers in this cluster place a higher priority on groceries, detergents, and paper goods, showing an emphasis on necessities for the home.
 
 ## Performance Comparison
 
 1. **K-means:** Highest Silhouette Coefficient (0.680), well-separated clusters.
+
 2. **Hierarchical:** Silhouette Coefficient (0.678), capturing complex differences.
+
 3. **DBSCAN:** Silhouette Coefficient (0.636), effective with noisy data.
 
 **Overall Performance:** K-means outperforms with a Silhouette Coefficient of 0.680, creating more distinct and well-separated clusters.
+
 **Observations:** K-means shows efficient cluster combination, while hierarchical captures complex differences. DBSCAN manages noise well but struggles with certain data patterns.
 
 ## Conclusion
 
 (i)	Customers spending habits vary across various regions and distribution channels. While the Hotel channel exhibits higher overall spending, the Other region emerges as a promising market for wholesale goods.
+
 (ii) “Fresh,” “Grocery,” and “Milk” product categories have a substantial impact on client purchasing decisions, highlighting their relevance in marketing and product offerings.
+
 (iii)	Using clustering analysis, different consumer segments were found based on the preferences and spending habits of the customers.
 
 
